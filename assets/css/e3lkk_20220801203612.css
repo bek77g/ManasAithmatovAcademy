@@ -7912,8 +7912,8 @@ body.mobile_switch_on .wgl-menu_outer {
   margin: 0 12px;
 }
 .page-header_breadcrumbs .divider:not(:last-child):before {
-  content: '\ecab';
-  font-family: boxicons !important;
+  content: '\ed35';
+  font-family: flaticon;
   font-size: 9px;
   display: inline-block;
   margin-bottom: 3px;
@@ -34525,7 +34525,7 @@ body select option,
 [class*=' eicon-'],
 [class^='eicon'] {
   display: inline-block;
-  font-family: boxicons!important;
+  font-family: eicons;
   font-size: inherit;
   font-weight: 400;
   font-style: normal;
@@ -34931,14 +34931,13 @@ body select option,
   content: '\e87c';
 }
 .eicon-chevron-right:before {
-  content: '\ed3b';
+  content: '\e87d';
 }
 .eicon-chevron-left:before {
-  content: "\ed38";
+  content: '\e87e';
 }
 .eicon-close:before {
-  content: 'X';
-  font-family: 'Graphik'
+  content: '\e87f';
 }
 .eicon-file-download:before {
   content: '\e880';
@@ -35463,7 +35462,7 @@ body select option,
   content: '\e92d';
 }
 .eicon-zoom-in-bold:before {
-  content: '\ec90';
+  content: '\e92e';
 }
 .eicon-sort-amount-desc:before {
   content: '\e92f';
@@ -35601,7 +35600,7 @@ body select option,
   content: '\e95b';
 }
 .eicon-frame-expand:before {
-  content: '\eaeb';
+  content: '\e95c';
 }
 .eicon-frame-minimize:before {
   content: '\e95d';
@@ -35649,8 +35648,7 @@ body select option,
   content: '\e96b';
 }
 .eicon-share-arrow:before {
-  content: '\eea1';
-  display: none
+  content: '\e96c';
 }
 .eicon-global-settings:before {
   content: '\e96d';
@@ -38375,7 +38373,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
   color: #d9534f;
 }
 .elementor-message.elementor-message-danger:before {
-  content: '\ec84';
+  content: '\e87f';
 }
 .elementor-message.form-message-success {
   color: #5cb85c;
