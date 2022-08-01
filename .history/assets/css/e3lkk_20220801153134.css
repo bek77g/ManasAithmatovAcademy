@@ -33929,7 +33929,7 @@ h3,
 h3 span,
 h3 a,
 h3.elementor-heading-title {
-  font-family: 'Graphik';
+  font-family: var(--nico-h3-font-family);
   font-size: var(--nico-h3-font-size);
   line-height: var(--nico-h3-line-height);
   font-weight: var(--nico-h3-font-weight);
@@ -33940,7 +33940,7 @@ h4,
 h4 span,
 h4 a,
 h4.elementor-heading-title {
-  font-family: 'Graphik';
+  font-family: var(--nico-h4-font-family);
   font-size: var(--nico-h4-font-size);
   line-height: var(--nico-h4-line-height);
   font-weight: var(--nico-h4-font-weight);
@@ -34073,7 +34073,7 @@ ul.wp-block-latest-posts li a,
 .wgl-combo-menu .menu-item_price,
 .post_categories a,
 .single_post_info .share_post-container .share_post-title {
-  font-family: 'Graphik';
+  font-family: var(--nico-header-font-family);
 }
 .banner_404,
 .author-info_public,

@@ -4696,7 +4696,7 @@ legend {
   outline: 0;
   padding: 0;
   font-size: 100%;
-  font-family: 'Graphik';
+  font-family: inherit;
   font-weight: inherit;
   font-style: inherit;
   vertical-align: baseline;
@@ -10421,7 +10421,6 @@ body .comment-form-cookies-consent > input[type='checkbox'] + label {
   margin: 0 calc(0.5 * var(--wgl-filtet-categories-gap));
   border-radius: 3px;
   font-size: 16px;
-  font-family: 'Graphik';
   line-height: 1;
   font-weight: 500;
   transition: 0.4s;
@@ -25152,7 +25151,6 @@ div.wgl-products .woo_product_content,
   width: 100%;
   margin: 0;
   padding: 21px 23px 17px;
-  font-family: 'Graphik';
   text-align: left;
   opacity: 1;
   position: relative;
@@ -25728,7 +25726,7 @@ div.wgl-products div.product a.wc-forward {
   border: unset;
   padding: 3px 15px;
   text-align: center;
-  font-family: 'Graphik';
+  font-family: var(--nico-header-font-family);
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
@@ -33929,7 +33927,7 @@ h3,
 h3 span,
 h3 a,
 h3.elementor-heading-title {
-  font-family: 'Graphik';
+  font-family: var(--nico-h3-font-family);
   font-size: var(--nico-h3-font-size);
   line-height: var(--nico-h3-line-height);
   font-weight: var(--nico-h3-font-weight);
@@ -33940,7 +33938,7 @@ h4,
 h4 span,
 h4 a,
 h4.elementor-heading-title {
-  font-family: 'Graphik';
+  font-family: var(--nico-h4-font-family);
   font-size: var(--nico-h4-font-size);
   line-height: var(--nico-h4-line-height);
   font-weight: var(--nico-h4-font-weight);
@@ -34073,7 +34071,7 @@ ul.wp-block-latest-posts li a,
 .wgl-combo-menu .menu-item_price,
 .post_categories a,
 .single_post_info .share_post-container .share_post-title {
-  font-family: 'Graphik';
+  font-family: var(--nico-header-font-family);
 }
 .banner_404,
 .author-info_public,
@@ -38589,6 +38587,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
   height: 100%;
   z-index: 1;
   display: flex;
+  font-family: 'Graphik';
   transition-property: transform;
   box-sizing: content-box;
 }
