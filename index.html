@@ -8139,8 +8139,8 @@
               <label class="wgl-control-title">Анимация жидкости WGL</label>
               <div class="wgl-control-input-wrapper wgl-control-unit-5">
                 <select name="webgl_fluid_color_type">
-                  <option value="random">Random</option>
-                  <option value="simple" selected="selected">
+                  <option value="random" selected="selected">Random</option>
+                  <option value="simple">
                     Simple Color
                   </option>
                 </select>
@@ -8192,9 +8192,9 @@
               <label class="wgl-control-title">Sim Resolution</label>
               <div class="wgl-control-input-wrapper wgl-control-unit-5">
                 <select name="webgl_fluid_resolution">
-                  <option value="256" selected="selected">256</option>
+                  <option value="256">256</option>
                   <option value="128">128</option>
-                  <option value="64">64</option>
+                  <option value="64" selected="selected">64</option>
                   <option value="32">32</option>
                 </select>
               </div>
@@ -8210,17 +8210,7 @@
                   name="density_range"
                   min="0.01"
                   max="4"
-                  value="1.73"
-                  step="0.01"
-                  oninput="this.form.density_input.value=this.value"
-                />
-                <input
-                  class="wgl-slider-input"
-                  type="number"
-                  name="density_input"
-                  min="0.01"
-                  max="4"
-                  value="1.73"
+                  value="3.2"
                   step="0.01"
                   oninput="this.form.density_range.value=this.value"
                 />
@@ -8264,7 +8254,7 @@
                   name="pressure_range"
                   min="0"
                   max="1"
-                  value="0.2"
+                  value="0.54"
                   step="0.01"
                   oninput="this.form.pressure_input.value=this.value"
                 />
@@ -8274,7 +8264,7 @@
                   name="pressure_input"
                   min="0"
                   max="1"
-                  value="0.2"
+                  value="0.54"
                   step="0.01"
                   oninput="this.form.pressure_range.value=this.value"
                 />
@@ -8291,7 +8281,7 @@
                   name="splat_radius_range"
                   min="0"
                   max="1"
-                  value="0.7"
+                  value="0.38"
                   step="0.01"
                   oninput="this.form.splat_radius_input.value=this.value"
                 />
@@ -8301,7 +8291,7 @@
                   name="splat_radius_input"
                   min="0"
                   max="1"
-                  value="0.7"
+                  value="0.38"
                   step="0.01"
                   oninput="this.form.splat_radius_range.value=this.value"
                 />
@@ -8618,13 +8608,13 @@
     <script type="text/javascript" id="wgl-webgl-fluid-js-extra">
       /* <![CDATA[ */
       var webgl_fluid_settings = {
-        color_type: 'simple',
+        color_type: 'random',
         color: '#2D0D51',
-        resolution: '256',
+        resolution: '64',
         velocity: '2.9',
-        density: '1.73',
-        pressure: '0.18',
-        splat_radius: '0.67',
+        density: '3.2',
+        pressure: '0.54',
+        splat_radius: '0.38',
         backspace_animation: 'yes',
       };
       /* ]]> */
