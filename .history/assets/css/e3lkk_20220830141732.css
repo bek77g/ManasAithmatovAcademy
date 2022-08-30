@@ -14147,7 +14147,7 @@ body .wc-block-product-search__fields .wc-block-product-search__button svg {
   font-size: 16px;
   line-height: 1;
   font-weight: 700;
-  color: #493086;
+  color: var(--nico-button-color-idle);
   background-color: var(--nico-button-bg-idle);
   transition: 0.4s;
   letter-spacing: 0;

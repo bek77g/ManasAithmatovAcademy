@@ -1008,7 +1008,7 @@ body {
   --nico-button-color-idle: #493086;
   --nico-button-bg-idle: #fff;
   --nico-button-border-idle: #a2a2a2;
-  --nico-button-color-hover: #fff;
+  --nico-button-color-hover: #111;
   --nico-button-bg-hover: #a2a2a2;
   --nico-button-border-hover: #e3ebf4;
   --nico-cursor-point-color: rgba(22, 14, 44, 0);
