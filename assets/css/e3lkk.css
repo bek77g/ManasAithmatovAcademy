@@ -7792,6 +7792,14 @@ body.mobile_switch_on .wgl-menu_outer {
   z-index: 1;
   padding: 10px 0;
   overflow: hidden;
+  background-size: 800px;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center bottom;
+min-height: 370px;
+margin-bottom: 50px;
+padding-top: 100px;
+padding-bottom: 28px;
 }
 .page-header:before {
   content: '';
@@ -10536,15 +10544,17 @@ body ol {
 }
 ol li,
 ul[class*='nico_'] li {
-  --nico-list-icon-color: currentColor;
+  --nico-list-icon-color: #fff;
+  color: #fff;
 }
 ol li::before,
 ul[class*='nico_'] li::before {
-  color: var(--nico-list-icon-color);
+  color: #fff;
 }
 ol.list_primary_color li,
 ul[class*='nico_'].list_primary_color li {
-  --nico-list-icon-color: var(--nico-primary-color);
+  --nico-list-icon-color: #fff;
+  text-align: start;
 }
 ol.list_secondary_color li,
 ul[class*='nico_'].list_secondary_color li {
@@ -11802,6 +11812,7 @@ body li ol {
   padding-top: 22px;
   padding-bottom: 27px;
   transition: 0.4s;
+  background: #160E2C;
 }
 .wgl_module_team .member__name {
   font-size: 24px;
@@ -14147,7 +14158,7 @@ body .wc-block-product-search__fields .wc-block-product-search__button svg {
   font-size: 16px;
   line-height: 1;
   font-weight: 700;
-  color: #493086;
+  color: #000;
   background-color: var(--nico-button-bg-idle);
   transition: 0.4s;
   letter-spacing: 0;
@@ -38725,6 +38736,9 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
+  transform: scale(2.3);
+  background: #fff;
+  color: #fff;
 }
 .swiper-pagination-white .swiper-pagination-bullet-active {
   background: #fff;

@@ -1009,7 +1009,7 @@ body {
   --nico-button-bg-idle: #fff;
   --nico-button-border-idle: #a2a2a2;
   --nico-button-color-hover: #fff;
-  --nico-button-bg-hover: #a2a2a2;
+  --nico-button-bg-hover: #31274b;
   --nico-button-border-hover: #e3ebf4;
   --nico-cursor-point-color: rgba(22, 14, 44, 0);
   --nico-back-to-top-color: #ffffff;
@@ -1024,7 +1024,7 @@ body {
   --nico-shop-products-overlay: rgba(255, 255, 255, 0);
   --nico-header-font-family: Space Grotesk;
   --nico-header-font-weight: 700;
-  --nico-header-font-color: #757575;
+  --nico-header-font-color: #fff;
   --nico-h1-font-family: Graphik;
   --nico-h1-font-size: 48px;
   --nico-h1-line-height: 60px;
@@ -1043,19 +1043,19 @@ body {
   --nico-h3-font-weight: 700;
   --nico-h3-text-transform: none;
   --nico-h3-letter-spacing: normal;
-  --nico-h4-font-family: Space Grotesk;
+  --nico-h4-font-family: Graphik;
   --nico-h4-font-size: 30px;
   --nico-h4-line-height: 42px;
   --nico-h4-font-weight: 700;
   --nico-h4-text-transform: none;
   --nico-h4-letter-spacing: normal;
-  --nico-h5-font-family: Space Grotesk;
+  --nico-h5-font-family: Graphik;
   --nico-h5-font-size: 26px;
   --nico-h5-line-height: 38px;
   --nico-h5-font-weight: 700;
   --nico-h5-text-transform: none;
   --nico-h5-letter-spacing: normal;
-  --nico-h6-font-family: Space Grotesk;
+  --nico-h6-font-family: Graphik;
   --nico-h6-font-size: 22px;
   --nico-h6-line-height: 34px;
   --nico-h6-font-weight: 700;
@@ -1120,6 +1120,7 @@ body {
 }
 @media (max-width: 1200px) {
   .page-header {
+    background-size: 650px !important;
     padding-top: 90px !important;
     padding-bottom: 90px !important;
     min-height: auto !important;
@@ -1259,6 +1260,18 @@ body .wgl-layout-right {
     display: none;
   }
 }
+@media (max-width: 656px) {
+  .page-header {
+    background-position: center top !important;
+    background-size: 100% !important;
+  }
+}
+@media (max-width: 500px) {
+  .page-header {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
 
 /* Custom styles  */
 .ant-pagination {
@@ -1321,5 +1334,27 @@ body .wgl-layout-right {
   display: flex;
   align-items: center;
   -moz-column-gap: 20px;
-       column-gap: 20px;
+  column-gap: 20px;
+}
+
+.elementor-member-wrapper {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 60px;
+  column-gap: 60px;
+}
+.elementor-member-wrapper article {
+  width: calc(40% - 30px);
+}
+
+@media (max-width: 768px) {
+  .elementor-member-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .elementor-member-wrapper article {
+    width: 80%;
+  }
 }
